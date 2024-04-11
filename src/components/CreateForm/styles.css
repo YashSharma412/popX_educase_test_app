@@ -1,0 +1,87 @@
+.createForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    width: 98%;
+    height: 98%;
+    /* max-width: 100%; */
+    padding: 1rem 2.25rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+}
+
+.form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Form__header {
+    max-width: 250px;
+    margin-bottom: 0.25rem;
+}
+
+.form__main {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="radio"] {
+    padding-top: 16px;
+    accent-color: var(--clr_secondary_active) !important;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.role__label{
+    display: block;
+    padding: 10px 10px 0 10px;
+}
+
+.roleSelect{
+    padding: 8px 0 0 10px;
+}
+
+.radio_label{
+    display: inline;
+    align-self: center;
+    gap: 1.7rem;
+}
+
+.radio__span{
+    padding-right: 10px;
+}
+
+.submit__cnt{
+    padding: 2rem 0 0.5rem 0;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .createForm {
+        width: 98%;
+        max-width: 590px;
+        height: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Form__header {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.home{
+    padding: 2.5rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    position: absolute;
+    bottom: 5px;
+    width: 97%;
+    max-width: 720px;
+    box-sizing: border-box;
+}
+.home__header{
+    max-width: 300px;
+}
+.btns__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* ! for pc screen sizes  */
+@media only screen and (min-width: 768px){
+    .home{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .home .heading{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .home .article{
+        text-align: center;
+
+    }
+    .home__header{
+        max-width: 800px;
+        margin: auto;
+    }
+}

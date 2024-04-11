@@ -1,0 +1,87 @@
+.profile {
+    padding: 2.5rem 1.75rem;
+    width: 97%;
+    max-width: 720px;
+    box-sizing: border-box;
+}
+
+.user__details-cnt {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.user__img-cnt {
+    width: 20%;
+    min-width: 80px;
+    max-width: 120px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.user__img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user__img>img {
+    width: 98%;
+}
+
+.camera__cnt{
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    cursor: pointer;
+}
+
+.user__details>h1{
+    margin: 0 0 4px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.profile__body>p{
+    margin: 0 0 4px 0;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.user__details>p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 4px 0;
+}
+.dotted{
+    border: 1px dashed #CBCBCB;
+    border-style: none none dashed; 
+    color: #fff; 
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 768px){
+    .user__details>h1{
+        font-size: 2rem;
+    }
+    
+    .user__details>p,
+    .profile__body>p{
+        font-size: 1.2rem;
+    }
+    .camera__cnt>img{
+        width: 30px;
+        width: 30px;
+    }
+
+    .profile {
+        width: 97%;
+        max-width: unset;
+        box-sizing: border-box;
+    }
+}

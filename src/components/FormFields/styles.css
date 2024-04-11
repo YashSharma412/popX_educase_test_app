@@ -1,0 +1,71 @@
+
+.form__group {
+    position: relative;
+    outline: 1px solid #CBCBCB;
+    padding: 12px 8px 18px 8px;
+    padding: 6px 8px 9px 8px;
+    /* padding: 8px 6px 10px 6px; */
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.form__input {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    /* border-bottom: 1px solid #d2d2d2; */
+    outline: 0;
+    font-size: 16px;
+    color: #212121;
+    padding: 7px 0 7px 20px;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__input::placeholder {
+    color: transparent;
+}
+
+.form__input:placeholder-shown~.form__label {
+    font-size: 16px;
+    cursor: text;
+    top: 14px;
+}
+
+.form__label,
+.form__input:focus~.form__label {
+    position: absolute;
+    background-color: #F7F8F9 !important;
+    z-index: 1;
+    padding: 0 10px;
+    top: -10px;
+    left: 20px;
+    display: block;
+    transition: 0.2s;
+    font-size: 16px;
+    /* color: rgba(108, 36, 254, 1); */
+    color: var(--clr_secondary_active);
+
+}
+
+.form__input:focus~.form__label {
+    /* color: var(--clr_secondary_active); */
+    color: rgb(81, 21, 201);
+
+}
+
+.form__input:focus {
+    padding-bottom: 6px;
+}
+
+.starlabel label:after {
+    content:" *";
+    color: red;
+  }
+
+  .password__eye_cont{
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    bottom: 10px;
+}
