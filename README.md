@@ -6,7 +6,7 @@
 
 ## Example Data
 
-Use the following data to log in and sign up:
+Use the following data to log in and sign up, or make your own user entry by first signing up , then try logging in:
 
 - **Name:** Marry Doe
 - **Mobile Number:** 1234567890
