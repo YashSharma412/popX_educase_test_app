@@ -5,6 +5,6 @@ const testUser = {
   password: "marrydoe",
   confirmPassword: "marrydoe",
   company: "",
-  Agency: "unset",
+  Agency: "false",
 };
 export default testUser;

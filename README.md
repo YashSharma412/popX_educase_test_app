@@ -1,5 +1,5 @@
 # PopX Web App
-
+Made a PopX web app's frontend, with mobile first css approach, totally responsive for desktop websites, but it is advisible to view on mobile display. Followed the classic file structure which can be used in a large scale project. Tried to make the code as modular as possible making repeated code into its own component 
 ## Live Link: https://pop-x-educase-test-app.vercel.app/
 
 [PopX Web App](https://pop-x-educase-test-app.vercel.app/)
